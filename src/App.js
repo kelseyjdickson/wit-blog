@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+//assets
+import part1 from "./images/womenintech.jpeg";
+import part2 from "./images/yellowwit.jpeg";
+import part3 from "./images/part3.jpeg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Header</h1>
+      <div>
+        <img
+          style={{ width: "600px", height: "417px" }}
+          src={part1}
+          alt="first blog"
+        />
+        <img
+          style={{ width: "600px", height: "417px" }}
+          src={part2}
+          alt="second blog"
+        />
+        <img
+          style={{ width: "600px", height: "417px" }}
+          src={part3}
+          alt="third blog"
+        />
+      </div>
     </div>
   );
 }
