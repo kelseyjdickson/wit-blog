@@ -1,6 +1,9 @@
 import  React from "react";
 
+
+
 //assets
+import './_part1.scss'
 import part1 from "../images/womenintech.jpeg";
 import joy from './joy.png'
 import kristal from './kristal.png'
@@ -60,7 +63,7 @@ let part1Data = [
 const Part1 = () => {
     let part1Women = part1Data.map((women) => {
         return (
-            <div key={women.id} >
+            <div key={women.id} className="container">
             <h1>{women.name}</h1>
             <img src={women.image} alt="women to watch part 1 photos"/>
             </div>
