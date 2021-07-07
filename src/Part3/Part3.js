@@ -1,20 +1,20 @@
 import  React from "react";
 
 //assets
-import part2 from "./images/yellowwit.jpeg";
+import part3 from "../images/part3.jpeg";
 
-const Part2 = () => {
+const Part3 = () => {
     return(
         <>
         <img
           style={{ width: "600px", height: "417px" }}
-          src={part2}
+          src={part3}
           alt="first blog"
           
         />
-            <h1>Made it to Part 2</h1>
+            <h1>Made it to Part 3</h1>
         </>
     )
 }
 
-export default Part2
+export default Part3
