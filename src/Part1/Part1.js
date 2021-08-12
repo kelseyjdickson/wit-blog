@@ -65,6 +65,8 @@ const Part1 = () => {
         return (
             <div key={women.id} className="container">
             <h1>{women.name}</h1>
+            <h2>Company: {women.company}</h2>
+            <a href={women.contact_link}>Contact</a>
             <img src={women.image} alt="women to watch part 1 photos"/>
             </div>
         )

@@ -1,4 +1,6 @@
-import React from 'react'
+import  React, {useState, useEffect} from "react";
+
+
 import { Link } from 'react-router-dom'
 //components
 import Header from './Header'
@@ -8,6 +10,7 @@ import part2 from "./images/yellowwit.jpeg";
 import part3 from "./images/part3.jpeg";
 
 const Home = () => {
+   
     return(
         <>
         <Header/>
