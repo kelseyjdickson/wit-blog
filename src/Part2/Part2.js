@@ -11,21 +11,23 @@ const Part2 = ({ data }) => {
         <>
           <img style={{borderRadius: '100px'}}src={yo.female.image} alt="" />
           <h1>{yo.female.name}</h1>
+          <h3>Company: {yo.female.company}</h3>
+          <h3>Job Title: {yo.female.job_title}</h3>
+          <a href={yo.female.contact_link}>Contact Info</a>
+
           <hr></hr>
         </>
       );
     }
   });
-  // const blogTitle = data.map((info) => {
-  //   console.log(info.blog_num)
-  // })
+
 
   return (
     <>
       <img
         style={{ width: "600px", height: "417px" }}
         src={part2}
-        alt="first blog"
+        alt="second blog"
       />
       <h1>Made it to Part 2</h1>
       <h1>{info}</h1>

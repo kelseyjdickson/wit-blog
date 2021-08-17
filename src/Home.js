@@ -14,14 +14,16 @@ const Home = () => {
     return(
         <>
         <Header/>
-        <Link to="/part1">
-            <img src={part1} alt=" wit blog 1"/>
+        <Link to="/part1">Part I
+        
+            {/* <img src={part1} alt=" wit blog 1"/> */}
+            
         </Link>
-        <Link to="/part2">
-            <img src={part2} alt="wit blog 2"/>
+        <Link to="/part2"> Part II
+            {/* <img src={part2} alt="wit blog 2"/> */}
         </Link>
-        <Link to="/part3">
-            <img src={part3} alt="wit blog 3"/>
+        <Link to="/part3"> Part III
+            {/* <img src={part3} alt="wit blog 3"/> */}
         </Link>
         </>
 

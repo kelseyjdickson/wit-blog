@@ -26,13 +26,13 @@ function App() {
       <Home />
       <main>
         <Switch>
-          <Route exact path="/part1">
+          <Route path="/part1">
             <Part1 data={data}/>
           </Route>
           <Route path="/part2">
             <Part2 data={data}/>
           </Route>
-          <Route path="/part3">
+          <Route data={data}path="/part3">
             <Part3 />
           </Route>
         </Switch>
