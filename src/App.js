@@ -7,7 +7,7 @@ import axios from "axios";
 import Part1 from "./Part1/Part1";
 import Part2 from "./Part2/Part2";
 import Part3 from "./Part3/Part3";
-import Home from "./Home";
+import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import About from './About'
 
@@ -16,9 +16,9 @@ function App() {
   
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios("http://127.0.0.1:3000/blogs");
-      setData(result.data);
-    };
+      const result = await axios("http://localhost:3000/blogs");
+      setData(result.data)
+    }
     fetchData();
   }, []);
   
