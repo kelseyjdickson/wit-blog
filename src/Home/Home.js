@@ -14,14 +14,14 @@ const Home = ({ data }) => {
       {data.map(womenInfo => {
         return (
           <div key={womenInfo.id} className="container">
-            <h1>{womenInfo.female.name}</h1>
             <img className="container__image"src={womenInfo.female.image} alt="women in tech" />
+            <h1 className="container__header">{womenInfo.female.name}</h1>
             <p>{womenInfo.name_of_blog}</p>
             <p>Company: {womenInfo.female.company}</p>
             <p>Job: {womenInfo.female.job_title}</p>
             <p>
               Contact Info: <a href={womenInfo.female.contact_link}>LinkedIn</a>
-            </p>
+            </p> 
           </div>
         );
       })}
