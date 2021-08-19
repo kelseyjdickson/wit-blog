@@ -9,21 +9,24 @@ import part1 from "../images/womenintech.jpeg";
 
 
 const Part1 = ({ data }) => {
-    const info = data.map(yo => {
-        if (yo.blog_num === 1) {
-          return (
-            <>
-              <img style={{borderRadius: '100px'}}src={yo.female.image} alt="" />
-              <h1>{yo.female.name}</h1>
-              <h3>Company: {yo.female.company}</h3>
-              <h3>Job Title: {yo.female.job_title}</h3>
-              <a href={yo.female.contact_link}>Contact Info</a>
+
+    // const info = data.map(yo => {
+    //     if (yo.blog_num === 1) {
+    //       return (
+    //         <div key={yo.id}>
+    //           <img style={{borderRadius: '100px'}}src={yo.data.image} alt="" />
+    //           <h1>{yo.data.name}</h1>
+    //           <h3>Company: {yo.data.company}</h3>
+    //           <h3>Job Title: {yo.data.job_title}</h3>
+    //           <a href={yo.data.contact_link}>Contact Info</a>
     
-              <hr></hr>
-            </>
-          );
-        }
-      });
+    //           <hr></hr>
+    //         </div>
+    //       )
+    //     } else {
+    //       return null;
+    //     }
+    //   });
     
    
     
@@ -37,7 +40,8 @@ const Part1 = ({ data }) => {
           
         />
             <h1>Made it to Part 1</h1>
-           <h1>{info}</h1>
+            {/* {info} */}
+           {/* <h1>{info}</h1> */}
             
         </>
     )

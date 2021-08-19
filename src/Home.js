@@ -9,22 +9,23 @@ import part1 from "./images/womenintech.jpeg";
 import part2 from "./images/yellowwit.jpeg";
 import part3 from "./images/part3.jpeg";
 
-const Home = () => {
+const Home = ({data}) => {
+
    
     return(
         <>
         <Header/>
-        <Link to="/part1">Part I
+        {data.map((womenInfo) => {
+            console.log(womenInfo, "info")
+            return (
+                <div key={womenInfo.id}>
+                <h1>{womenInfo.female.name}</h1>
+                <img src={womenInfo.female.image}/>
+                </div>
+            )
+        })}
+        <h1>HOME</h1>
         
-            {/* <img src={part1} alt=" wit blog 1"/> */}
-            
-        </Link>
-        <Link to="/part2"> Part II
-            {/* <img src={part2} alt="wit blog 2"/> */}
-        </Link>
-        <Link to="/part3"> Part III
-            {/* <img src={part3} alt="wit blog 3"/> */}
-        </Link>
         </>
 
     )

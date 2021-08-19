@@ -8,7 +8,7 @@ const Part2 = ({ data }) => {
   const info = data.map(yo => {
     if (yo.blog_num === 2) {
       return (
-        <>
+        <div key={yo.id}>
           <img style={{borderRadius: '100px'}}src={yo.female.image} alt="" />
           <h1>{yo.female.name}</h1>
           <h3>Company: {yo.female.company}</h3>
@@ -16,7 +16,7 @@ const Part2 = ({ data }) => {
           <a href={yo.female.contact_link}>Contact Info</a>
 
           <hr></hr>
-        </>
+        </div>
       );
     }
   });

@@ -11,29 +11,30 @@ import Home from "./Home";
 import Footer from "./Footer";
 
 function App() {
-  const [data, setData] = useState({ women: [] });
+  const [data, setData] = useState({ data: [] });
   useEffect(() => {
-      const fetchData = async () => {
-        const result = await axios("http://127.0.0.1:3000/blogs");
-  
-        setData(result.data);
-      };
-      fetchData();
-    }, []);
-    console.log("HI", data)
+    const fetchData = async () => {
+      const result = await axios("http://127.0.0.1:3000/blogs");
+      setData(result.data);
+    };
+    fetchData();
+  }, []);
+  console.log("HI", data);
   return (
     <div className="App">
-      <Home />
       <main>
         <Switch>
+          <Route path="/">
+            <Home data={data}/>
+          </Route>
           <Route path="/part1">
-            <Part1 data={data}/>
+            <Part1 data={data} />
           </Route>
           <Route path="/part2">
-            <Part2 data={data}/>
+            <Part2 data={data} />
           </Route>
-          <Route data={data}path="/part3">
-            <Part3 />
+          <Route path="/part3">
+            <Part3 data={data} />
           </Route>
         </Switch>
       </main>
