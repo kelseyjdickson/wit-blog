@@ -9,18 +9,24 @@ import part1 from "./images/womenintech.jpeg";
 import part2 from "./images/yellowwit.jpeg";
 import part3 from "./images/part3.jpeg";
 
-const Home = ({data}) => {
+const Home = ({ data }) => {
 
    
     return(
         <>
         <Header/>
-        {data.map((womenInfo) => {
-            console.log(womenInfo, "info")
+        {data.map(womenInfo => {
+            
             return (
                 <div key={womenInfo.id}>
+
                 <h1>{womenInfo.female.name}</h1>
-                <img src={womenInfo.female.image}/>
+                <img src={womenInfo.female.image} alt="image of wit"/>
+                <p>{womenInfo.name_of_blog}</p>
+                <p>Company: {womenInfo.female.company}</p>
+                <p>Job: {womenInfo.female.job_title}</p>
+                <p> Contact Info: <a href={womenInfo.female.contact_link}>LinkedIn</a></p>
+                
                 </div>
             )
         })}

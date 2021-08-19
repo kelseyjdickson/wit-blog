@@ -12,6 +12,7 @@ import Footer from "./Footer";
 
 function App() {
   const [data, setData] = useState({ data: [] });
+  
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios("http://127.0.0.1:3000/blogs");
@@ -22,7 +23,7 @@ function App() {
   console.log("HI", data);
   return (
     <div className="App">
-      <main>
+      
         <Switch>
           <Route path="/">
             <Home data={data}/>
@@ -37,8 +38,8 @@ function App() {
             <Part3 data={data} />
           </Route>
         </Switch>
-      </main>
       <Footer />
+      
     </div>
   );
 }
