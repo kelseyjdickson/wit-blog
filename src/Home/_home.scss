@@ -1,8 +1,10 @@
 .container{
     display: inline-block;
     border: 3px solid gray;
+    background-color:#FFDFD6;
     padding: 10px;
     border-radius: 50px;
+    // max-width: 350px;
     &__header{
         display: flex;
         justify-content: space-evenly;

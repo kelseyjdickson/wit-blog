@@ -16,7 +16,6 @@ const Home = ({ data }) => {
           <div key={womenInfo.id} className="container">
             <img className="container__image"src={womenInfo.female.image} alt="women in tech" />
             <h1 className="container__header">{womenInfo.female.name}</h1>
-            <p>{womenInfo.name_of_blog}</p>
             <p>Company: {womenInfo.female.company}</p>
             <p>Job: {womenInfo.female.job_title}</p>
             <p>

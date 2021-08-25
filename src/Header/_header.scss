@@ -1,6 +1,12 @@
-.header{
-    background-color: purple;
+.container-header{
+    background-color: lightgray;
+    border: 3px solid white;
+    border-radius: 20px;
+&__header{
+    background-color: #FFDFD6;
     color: white;
     width: auto;
-    height: 150px;
+    height: 170px;
+    font-size: 150px;
+}
 }

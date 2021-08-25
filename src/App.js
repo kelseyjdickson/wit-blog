@@ -35,11 +35,11 @@ function App() {
           <Route path="/part3">
             <Part3 data={data} />
           </Route>
-          <Route exact path='/about'>
+          <Route path='/about'>
             <About />
           </Route>
           <Route path="/">
-            <Home data={data}/>
+             <Home data={data}/>
           </Route>
         </Switch>
       <Footer />
