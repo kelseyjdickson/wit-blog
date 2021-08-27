@@ -19,7 +19,7 @@ const Home = ({ data }) => {
             <p>Company: {womenInfo.female.company}</p>
             <p>Job: {womenInfo.female.job_title}</p>
             <p>
-              Contact Info: <a href={womenInfo.female.contact_link}>LinkedIn</a>
+              <a href={womenInfo.female.contact_link}>LinkedIn</a>
             </p> 
           </div>
         );
