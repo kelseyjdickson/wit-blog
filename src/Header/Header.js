@@ -1,6 +1,7 @@
 import React from 'react'
 //assets
 import './_header.scss'
+import wit from '../images/Wit.jpeg'
 
 const Header = () => {
     return(
