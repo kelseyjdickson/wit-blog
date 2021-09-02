@@ -4,6 +4,7 @@ import { Link, Route, Switch } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 //components
+import Nav from './Nav/Nav'
 import Part1 from "./Part1/Part1";
 import Part2 from "./Part2/Part2";
 import Part3 from "./Part3/Part3";
@@ -24,7 +25,7 @@ function App() {
   
   return (
     <div className="App">
-      
+      <Nav />
         <Switch>
           <Route path="/part1">
             <Part1 data={data} />

@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    &__home{
+       list-style-type: none;
+       font-family: 'Montserrat', sans-serif;
+       text-decoration: none;
+    }
+}
