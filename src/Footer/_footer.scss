@@ -1,9 +1,17 @@
 .footer{
     background-color:#caae58;;
-    color: white;
     width: auto;
     height: 150px;
     font-family: 'Montserrat', sans-serif;
-    color:white;
     font-family: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    &__about, &__contact, &__resources{
+        text-decoration: none;
+        
+    }
+}
+.link{
+    color: white;
 }
