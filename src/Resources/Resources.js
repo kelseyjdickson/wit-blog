@@ -10,6 +10,7 @@ import blog3 from "../images/blog3.jpeg";
 const Resources = () => {
   return (
     <div className="resource-container">
+        <h2>Part I</h2>
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
         <img
           className="resource-container__blog1"
@@ -17,6 +18,7 @@ const Resources = () => {
           alt="wit second blog"
         />
       </a>
+      <h2>Part II</h2>
       <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-9cb2d69543c7">
         <img
           className="resource-container__blog1"
@@ -24,6 +26,7 @@ const Resources = () => {
           alt="wit secondblog"
         />
       </a>
+      <h2>Part III</h2>
       <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-cdb437200fe1">
         <img
           className="resource-container__blog1"
