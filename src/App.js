@@ -5,11 +5,11 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 //components
 import Nav from './Nav/Nav'
-import Contact from './Contact/Contact'
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import About from './About'
-
+import Contact from './Contact/Contact'
+import Resources from './Resources/Resources'
 function App() {
   const [data, setData] = useState({ data: [] });
   
@@ -30,6 +30,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/resources'>
+            <Resources />
           </Route>
           <Route path="/">
              <Home data={data}/>
