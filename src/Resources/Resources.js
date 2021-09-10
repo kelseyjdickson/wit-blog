@@ -15,7 +15,7 @@ const Resources = () => {
         <img
           className="resource-container__blog1"
           src={blog1}
-          alt="wit second blog"
+          alt="wit first blog"
         />
       </a>
       <h2>Part II</h2>
