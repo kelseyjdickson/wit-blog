@@ -10,6 +10,13 @@ import blog3 from "../images/blog3.jpeg";
 const Resources = () => {
   return (
     <div className="resource-container">
+        <ul className="header">
+            <li>WIT BLOGS</li>
+            <li>Links</li>
+        </ul>
+        <div className="link">
+        <a href="">The Cohort Collective</a>
+        </div>
         <h2>Part I</h2>
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
         <img
@@ -34,6 +41,8 @@ const Resources = () => {
           alt="wit third blog"
         />
       </a>
+      
+
     </div>
   );
 };
