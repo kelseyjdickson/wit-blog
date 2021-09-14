@@ -1,11 +1,15 @@
 .footer{
-    background-color:#caae58;;
-    width: auto;
+    background-color:#caae58;
+    min-height: 408px;
+    bottom:0;
+    width: 100%;
     height: 150px;
     font-family: 'Montserrat', sans-serif;
-    font-family: 25px;
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 6.94% 16px 8.05%;
     justify-content: space-evenly;
     &__about, &__contact, &__resources{
         text-decoration: none;
