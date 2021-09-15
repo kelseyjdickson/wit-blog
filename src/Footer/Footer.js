@@ -21,7 +21,7 @@ const Footer = () => {
               Contact
             </Link>
             <div className="connect-icon">
-              <i class="far fa-envelope"></i>
+              <i class="far fa-envelope"></i> 
             </div>
             <div className="connect-icon">
               <i class="fab fa-linkedin"></i>
