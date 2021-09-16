@@ -15,7 +15,7 @@ const Home = ({ data }) => {
       {data && data.length > 0 && data.map(womenInfo => {
         return(
           <div key={womenInfo.id} className="container">
-            <img className="container__image"src={womenInfo.female.image} alt="women in tech" />
+            <img className="container__image"src={womenInfo.female.image} alt={womenInfo.name} />
             <h1 className="container__header">{womenInfo.female.name}</h1>
             <p className="container__company"><b>Company:</b> {womenInfo.female.company}</p>
             <p className="container__job"><b>Job:</b> {womenInfo.female.job_title}</p>

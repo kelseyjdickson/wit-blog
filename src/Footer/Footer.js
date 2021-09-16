@@ -24,13 +24,13 @@ const Footer = () => {
               <i class="far fa-envelope"></i> 
             </div>
             <div className="connect-icon">
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin"> </i>
             </div>
             <div className="connect-icon">
               <i class="fab fa-twitter-square"></i>
             </div>
             <div className="connect-icon">
-              <i class="fab fa-medium"></i>
+              <i class="fab fa-medium" > </i>
             </div>
           </div>
         </div>
