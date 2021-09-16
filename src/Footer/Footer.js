@@ -21,7 +21,9 @@ const Footer = () => {
               Contact
             </Link>
             <div className="connect-icon">
+              <a className="mail"href="mailto:kelseymedved@gmail.com?subject=WIT">
               <i class="far fa-envelope"></i> 
+              </a>
             </div>
             <div className="connect-icon">
               <i class="fab fa-linkedin"> </i>
