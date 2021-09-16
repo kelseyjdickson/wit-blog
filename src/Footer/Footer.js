@@ -26,13 +26,19 @@ const Footer = () => {
               </a>
             </div>
             <div className="connect-icon">
+              <a href="https://www.linkedin.com/in/kelseydickson/" target="_blank">
               <i class="fab fa-linkedin"> </i>
+              </a>
             </div>
             <div className="connect-icon">
+              <a className="twitter"href="https://twitter.com/KelseyD485" target="_blank">
               <i class="fab fa-twitter-square"></i>
+              </a>
             </div>
             <div className="connect-icon">
+              <a className="medium"href="https://kelseyjdickson.medium.com/" target="_blank">
               <i class="fab fa-medium" > </i>
+              </a>
             </div>
           </div>
         </div>
