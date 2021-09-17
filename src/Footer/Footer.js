@@ -30,6 +30,7 @@ const Footer = () => {
             </div>
             <div className="connect-icon">
               <a
+                className="linked"
                 href="https://www.linkedin.com/in/kelseydickson/"
                 target="_blank"
               >
