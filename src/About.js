@@ -23,15 +23,17 @@ const About = () => {
   //      setData(res.results)
   //   })
   // },[])
+
+  
   return (
     <>
-    <ul>
+    {/* <ul>
     {data.map(item => (
       // console.log("item",item.gender)
        <li key={item.id}>{item.name.title} {item.name.first} {item.name.last}</li>
     ))}
-    </ul>
-      <h1>
+    </ul> */}
+      {/* <h1>
         When I first joined Twitter there were many lists going around of Devs
         to follow. They were exclusively spotlighting males. I decided to spend
         some free time reaching out to the inspiring women who are making a
@@ -41,7 +43,7 @@ const About = () => {
       <button onClick={()=> setCount(count + 1)}>add</button>
       <button onClick={()=> setCount(count - 1)}>Minus</button>
       <br></br>
-      <button onClick={fetchData}>Click to Fetch Data</button>
+      <button onClick={fetchData}>Click to Fetch Data</button> */}
       
     </>
   );
