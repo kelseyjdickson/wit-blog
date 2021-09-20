@@ -11,17 +11,7 @@ import About from './About'
 import Contact from './Contact/Contact'
 import Resources from './Resources/Resources'
 import WomenContainer from './WomenContainer'
-function App() {
-  // const [data, setData] = useState({ data: [] });
-  
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const result = await axios("http://localhost:3000/blogs");
-  //     setData(result.data)
-  //   }
-  //   fetchData();
-  // }, []);
-  
+function App() { 
   return (
     <div className="App">
       <Nav />

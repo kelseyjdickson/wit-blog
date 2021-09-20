@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-
-
-
 //assests
 import "./_home.scss";
 
