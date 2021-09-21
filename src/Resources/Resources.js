@@ -6,6 +6,7 @@ import "./_resources.scss";
 import blog1 from "../images/blog1.jpeg";
 import blog2 from "../images/blog2.jpeg";
 import blog3 from "../images/blog3.jpeg";
+import blog4 from '../images/blog4.jpeg';
 
 const Resources = () => {
   return (
@@ -40,10 +41,16 @@ const Resources = () => {
           src={blog3}
           alt="wit third blog"
         />
+        </a>
+         <h2>Part IV</h2>
+        <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-25fc42d7a928">
+        <img
+          className="resource-container__blog1"
+          src={blog4}
+          alt="wit fourth blog"
+        />
       </a>
-      
-
-    </div>
+      </div>
   );
 };
 
