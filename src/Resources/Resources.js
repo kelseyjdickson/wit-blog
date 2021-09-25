@@ -22,6 +22,13 @@ const Resources = () => {
      <div className="link">
         <a href="https://www.blackgirlscode.com/">Black Girls Code</a>
       </div>
+      <div className="link">
+        <a href="https://www.ajl.org/">Algorithmic Justice League</a>
+      </div>
+      <div className="link">
+        <a href="https://girlswhocode.com/">Girls Who Code</a>
+      </div>
+      
 
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
         <img
