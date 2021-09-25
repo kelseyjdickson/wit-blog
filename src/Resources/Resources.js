@@ -6,19 +6,20 @@ import "./_resources.scss";
 import blog1 from "../images/blog1.jpeg";
 import blog2 from "../images/blog2.jpeg";
 import blog3 from "../images/blog3.jpeg";
-import blog4 from '../images/blog4.jpeg';
+import blog4 from "../images/blog4.jpeg";
 
 const Resources = () => {
   return (
     <div className="resource-container">
-        <ul className="header">
-            <li>WIT BLOGS</li>
-            <li>Links</li>
-        </ul>
-        <div className="link">
+      <h1>Resources</h1>
+      <ul className="header">
+        <li>WIT BLOGS</li>
+        <li>Links</li>
+      </ul>
+      <div className="link">
         <a href="">The Cohort Collective</a>
-        </div>
-        <h2>Part I</h2>
+      </div>
+
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
         <img
           className="resource-container__blog1"
@@ -26,7 +27,7 @@ const Resources = () => {
           alt="wit first blog"
         />
       </a>
-      <h2>Part II</h2>
+
       <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-9cb2d69543c7">
         <img
           className="resource-container__blog1"
@@ -34,23 +35,23 @@ const Resources = () => {
           alt="wit secondblog"
         />
       </a>
-      <h2>Part III</h2>
+
       <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-cdb437200fe1">
         <img
           className="resource-container__blog1"
           src={blog3}
           alt="wit third blog"
         />
-        </a>
-         <h2>Part IV</h2>
-        <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-25fc42d7a928">
+      </a>
+
+      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-25fc42d7a928">
         <img
           className="resource-container__blog1"
           src={blog4}
           alt="wit fourth blog"
         />
       </a>
-      </div>
+    </div>
   );
 };
 
