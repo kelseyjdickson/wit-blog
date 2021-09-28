@@ -14,8 +14,8 @@ const Home = ({ data }) => {
           alt={name}
         />
         <h1 className="container__header">{female.name}</h1>
-        <p className="container__company">Company: {female.company}</p>
-        <p className="container__job">Job: {female.job_title}</p>
+        <p className="container__company"><b>Company:</b> {female.company}</p>
+        <p className="container__job"><b>Job:</b> {female.job_title}</p>
         <a href={female.contact_link}>
           <i class="fab fa-linkedin fa-2x"></i>
         </a>
