@@ -18,7 +18,7 @@ const WomenContainer = () => {
       <Header />
       {data[0]
         ? data.map(info => <Home key={info.id} data={info} />)
-        : "Loading"}
+        : "Loading..."}
     </>
   );
 };
