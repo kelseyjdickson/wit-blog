@@ -28,6 +28,9 @@ const Resources = () => {
       <div className="link">
         <a href="https://girlswhocode.com/">Girls Who Code</a>
       </div>
+      <div className="link">
+        <a href="https://www.techtalentpipeline.nyc/">NY Tech Talent Pipeline</a>
+      </div>
       
 
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
