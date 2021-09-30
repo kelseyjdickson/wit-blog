@@ -7,10 +7,14 @@ import blog1 from "../images/blog1.jpeg";
 import blog2 from "../images/blog2.jpeg";
 import blog3 from "../images/blog3.jpeg";
 import blog4 from "../images/blog4.jpeg";
+import wit from '../images/Wit-1.jpeg'
 
 const Resources = () => {
   return (
     <div className="resource-container">
+      <Link to="/home">
+      <img className="logo"src={wit} alt="logo"/>
+      </Link>
       <h1>Resources</h1>
       <ul className="header">
         <li>WIT BLOGS</li>
@@ -31,7 +35,10 @@ const Resources = () => {
       <div className="link">
         <a href="https://www.techtalentpipeline.nyc/">NY Tech Talent Pipeline</a>
       </div>
-      
+      <div className="link">
+        <a href="https://community.joinyearone.io/">Year One</a>
+      </div>
+    
 
       <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
         <img
