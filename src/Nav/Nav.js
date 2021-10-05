@@ -6,7 +6,8 @@ const Nav = () => {
     return(
         <>
         <ul className="nav">
-            <Link className="nav__home"to="/">Home
+        
+            <Link className="nav__home"to="/"><i class="fas fa-home fa-2x"></i>
             </Link>
         </ul>
         </>
