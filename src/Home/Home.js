@@ -8,7 +8,7 @@ import "./_home.scss";
 const Home = ({ data }) => {
 const { female, name, id } = data;
 
-  const handleClick = () => {};
+
   return (
     <>
       <Link to={`/${id}`}>
