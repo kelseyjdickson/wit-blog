@@ -11,6 +11,7 @@ import About from './About'
 import Contact from './Contact/Contact'
 import Resources from './Resources/Resources'
 import WomenContainer from './WomenContainer'
+import WomenDetail from './WomenDetail/WomenDetail'
 function App() { 
   return (
     <div className="App">
@@ -26,6 +27,9 @@ function App() {
             <Resources />
           </Route>
           <WomenContainer />
+          <Route path="/females/:id">
+            <WomenDetail />
+         </Route>
           <Route path="/">
              <Home />
           </Route>
