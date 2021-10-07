@@ -27,20 +27,20 @@ const Resources = () => {
         <a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a>
       </div>
       <div className="link">
-        <a href="https://www.ajl.org/">Algorithmic Justice League</a>
+        <a href="https://www.ajl.org/"target="_blank">Algorithmic Justice League</a>
       </div>
       <div className="link">
-        <a href="https://girlswhocode.com/">Girls Who Code</a>
+        <a href="https://girlswhocode.com/"target="_blank">Girls Who Code</a>
       </div>
       <div className="link">
-        <a href="https://www.techtalentpipeline.nyc/">NY Tech Talent Pipeline</a>
+        <a href="https://www.techtalentpipeline.nyc/"target="_blank">NY Tech Talent Pipeline</a>
       </div>
       <div className="link">
-        <a href="https://community.joinyearone.io/">Year One</a>
+        <a href="https://community.joinyearone.io/"target="_blank">Year One</a>
       </div>
     
 
-      <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd">
+      <a href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd"target="_blank">
         <img
           className="resource-container__blog1"
           src={blog1}
@@ -48,7 +48,7 @@ const Resources = () => {
         />
       </a>
 
-      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-9cb2d69543c7">
+      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-9cb2d69543c7"target="_blank">
         <img
           className="resource-container__blog1"
           src={blog2}
@@ -56,7 +56,7 @@ const Resources = () => {
         />
       </a>
 
-      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-cdb437200fe1">
+      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-cdb437200fe1"target="_blank">
         <img
           className="resource-container__blog1"
           src={blog3}
@@ -64,7 +64,7 @@ const Resources = () => {
         />
       </a>
 
-      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-25fc42d7a928">
+      <a href="https://kelseyjdickson.medium.com/women-to-watch-in-tech-in-2021-25fc42d7a928" target="_blank">
         <img
           className="resource-container__blog1"
           src={blog4}
