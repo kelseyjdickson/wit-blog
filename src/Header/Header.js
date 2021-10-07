@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 //assets
-import './_header.scss'
-import wit from '../images/Wit-1.jpeg'
+import "./_header.scss";
+import wit from "../images/Wit-1.jpeg";
 
 const Header = () => {
-    return(
-
+  return (
     <div>
-        <img className="logo"src={wit} alt="logo"/>
+      <img className="logo" src={wit} alt="logo" />
     </div>
-    )
-}
+  );
+};
 
-export default Header
+export default Header;

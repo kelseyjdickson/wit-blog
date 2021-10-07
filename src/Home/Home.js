@@ -4,10 +4,8 @@ import { useParams, useRouteMatch, Route, Switch } from "react-router-dom";
 //assests
 import "./_home.scss";
 
-
 const Home = ({ data }) => {
-const { female, name, id } = data;
-
+  const { female, name, id } = data;
 
   return (
     <>
