@@ -21,10 +21,10 @@ const Resources = () => {
         <li>Links</li>
       </ul>
       <div className="link">
-        <a href="">The Cohort Collective</a>
+        <a href="https://www.thecohortcollective.com/"target="_blank">The Cohort Collective</a>
       </div>
      <div className="link">
-        <a href="https://www.blackgirlscode.com/">Black Girls Code</a>
+        <a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a>
       </div>
       <div className="link">
         <a href="https://www.ajl.org/">Algorithmic Justice League</a>

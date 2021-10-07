@@ -27,12 +27,12 @@ function App() {
             <Resources />
           </Route>
           <WomenContainer />
-          <Route path="/females/:id">
-            <WomenDetail />
-         </Route>
           <Route path="/">
              <Home />
           </Route>
+          <Route path="/females/:id">
+            <WomenDetail />
+         </Route>
         </Switch>
       <Footer />
       
