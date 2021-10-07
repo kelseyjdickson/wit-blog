@@ -16,10 +16,8 @@ const Resources = () => {
         <img className="logo" src={wit} alt="logo" />
       </Link>
       <h1>Resources</h1>
-      <ul className="header">
-        <li>WIT BLOGS</li>
-        <li>Links</li>
-      </ul>
+     
+      <div className="div-container">
       <div className="link">
         <a
           href="https://www.thecohortcollective.com/"
@@ -109,13 +107,22 @@ const Resources = () => {
         >
           Femmecubator
         </a>
+        </div>
+        <div className="link">
+        <a
+        href="https://techtonica.org/full-time-program/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Techtonica - Bootcamp for Womxn and Non-binary folx</a>
       </div>
-
+      </div>
+      <div className="blog-container">
       <a
         href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd"
         target="_blank"
         rel="noopener noreferrer"
       >
+        
         <img
           className="resource-container__blog1"
           src={blog1}
@@ -158,6 +165,7 @@ const Resources = () => {
           alt="wit fourth blog"
         />
       </a>
+      </div>
     </div>
   );
 };
