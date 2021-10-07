@@ -33,6 +33,7 @@ const Footer = () => {
                 className="linked"
                 href="https://www.linkedin.com/in/kelseydickson/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-linkedin"> </i>
               </a>
@@ -42,6 +43,7 @@ const Footer = () => {
                 className="twitter"
                 href="https://twitter.com/KelseyD485"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-twitter-square"></i>
               </a>
@@ -51,6 +53,7 @@ const Footer = () => {
                 className="medium"
                 href="https://kelseyjdickson.medium.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i class="fab fa-medium"> </i>
               </a>
