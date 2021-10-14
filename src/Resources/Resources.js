@@ -11,12 +11,12 @@ import wit from "../images/Wit-1.jpeg";
 
 const Resources = () => {
   return (
-    <div className="resource-container">
-      <Link to="/home">
+    <div>
+    <Link to="/home">
         <img className="logo" src={wit} alt="logo" />
       </Link>
-      <h1>Resources</h1>
-     
+    
+      <div className="resource-container">
       <div className="div-container">
       <div className="link">
         <a
@@ -166,6 +166,7 @@ const Resources = () => {
         />
       </a>
       </div>
+    </div>
     </div>
   );
 };

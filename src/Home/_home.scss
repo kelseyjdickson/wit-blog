@@ -6,9 +6,8 @@
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     color:white;
-    min-width: 340px;
-
-    &__header{
+    width: 350px;
+&__header{
         display: flex;
         justify-content: space-evenly;
     }
@@ -16,7 +15,6 @@
     width: 300px;
     height: 300px;
     border-radius:150px;
-   
 }
 &__job{
    color:black;

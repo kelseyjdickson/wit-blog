@@ -6,7 +6,7 @@ import "./_home.scss";
 
 const Home = ({ data }) => {
   const { female, name, id } = data;
-
+console.log(data.female)
   return (
     <>
       <Link to={`/${id}`}>
@@ -28,6 +28,7 @@ const Home = ({ data }) => {
           <a href={female.contact_link}>
             <i class="fab fa-linkedin fa-2x"></i>
           </a>
+          <p></p>
         </div>
       </Link>
     </>
