@@ -27,7 +27,7 @@ function App() {
           <Resources />
         </Route>
         <WomenContainer />
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/females/:id">

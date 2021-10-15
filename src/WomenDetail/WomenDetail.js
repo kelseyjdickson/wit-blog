@@ -1,9 +1,7 @@
 import React from 'react'
-import {useState, useEffect } from 'react'
-import {useParams,  useRouteMatch } from 'react-router-dom'
+
 const WomenDetail = () => {
-    
-console.log()
+
     return(
         <div>
             <h1>Id </h1>

@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useParams, useRouteMatch, Route, Switch } from "react-router-dom";
+// import { useParams, useRouteMatch, Route, Switch } from "react-router-dom";
 //assests
 import "./_home.scss";
 
 const Home = ({ data }) => {
   const { female, name, id } = data;
-console.log(data.female)
   return (
     <>
       <Link to={`/${id}`}>
         <div className="container">
           <img
             src={female.image}
-            alt=""
+            alt="image of women in tech"
             className="container__image"
             alt={name}
             key={id}

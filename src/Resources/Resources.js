@@ -115,7 +115,38 @@ const Resources = () => {
         rel="noopener noreferrer"
       >Techtonica - Bootcamp for Womxn and Non-binary folx</a>
       </div>
+      <div className="link">
+        <a
+        href="https://techqueria.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Techqueria - Latinx in Tech</a>
       </div>
+      <div className="link">
+        <a
+        href="https://www.hackthehood.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Hack the Hood</a>
+      </div>
+      <div className="link">
+        <a
+        href="https://projectinclude.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Project Include</a>
+      </div>
+      <div className="link">
+        <a
+        href="https://girldevelopit.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Girl Develop It</a>
+      </div>
+      </div>
+      
+      
+      
       <div className="blog-container">
       <a
         href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd"
