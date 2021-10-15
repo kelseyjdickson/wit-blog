@@ -9,7 +9,6 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="footer__right">
-          {/* <img className="footer__logo" src={wit} alt="logo" /> */}
           <Link className="footer__about" to="/about">
             About
           </Link>

@@ -10,6 +10,9 @@
 &__header{
         display: flex;
         justify-content: space-evenly;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 2px 2px black;
+        
     }
 &__image{
     width: 300px;

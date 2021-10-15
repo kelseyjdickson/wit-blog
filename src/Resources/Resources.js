@@ -11,24 +11,26 @@ import wit from "../images/Wit-1.jpeg";
 
 const Resources = () => {
   return (
-    <div>
+    <>
     <Link to="/home">
         <img className="logo" src={wit} alt="logo" />
       </Link>
-    
-      <div className="resource-container">
-      <div className="div-container">
-      <div className="link">
+   <div className="rsource-cont">
+      
+      <div className="rsource-cont__left">
+    <h1 className="lg-font-rsource-1">Resources</h1>
         <a
+          id="link-text"
           href="https://www.thecohortcollective.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           The Cohort Collective
         </a>
-      </div>
+      
       <div className="link">
         <a
+          id="link-text"
           href="https://www.blackgirlscode.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,6 +40,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://www.ajl.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -47,6 +50,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://girlswhocode.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,6 +60,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://www.techtalentpipeline.nyc/"
           target="_blank"
           rel="noopener noreferrer"
@@ -65,6 +70,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://community.joinyearone.io/"
           target="_blank"
           rel="noopener noreferrer"
@@ -74,6 +80,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://www.diversifytech.co/"
           target="_blank"
           rel="noopener noreferrer"
@@ -83,6 +90,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://linktr.ee/artistswhocode"
           target="_blank"
           rel="noopener noreferrer"
@@ -92,6 +100,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://mentorcruise.com/mentor/NazDelam/"
           target="_blank"
           rel="noopener noreferrer"
@@ -101,6 +110,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+          id="link-text"
           href="https://www.femmecubator.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -110,6 +120,7 @@ const Resources = () => {
         </div>
         <div className="link">
         <a
+        id="link-text"
         href="https://techtonica.org/full-time-program/"
         target="_blank"
         rel="noopener noreferrer"
@@ -117,6 +128,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+        id="link-text"
         href="https://techqueria.org/"
         target="_blank"
         rel="noopener noreferrer"
@@ -124,6 +136,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+        id="link-text"
         href="https://www.hackthehood.org/"
         target="_blank"
         rel="noopener noreferrer"
@@ -131,6 +144,7 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+        id="link-text"
         href="https://projectinclude.org/"
         target="_blank"
         rel="noopener noreferrer"
@@ -138,16 +152,20 @@ const Resources = () => {
       </div>
       <div className="link">
         <a
+        id="link-text"
         href="https://girldevelopit.com/"
         target="_blank"
         rel="noopener noreferrer"
       >Girl Develop It</a>
       </div>
       </div>
+     
       
-      
+     
       
       <div className="blog-container">
+        <div className="column">
+        <h1 className="lg-font-rsource">WIT Blog</h1>
       <a
         href="https://kelseyjdickson.medium.com/5-women-in-tech-to-watch-in-2021-1df735a9ecbd"
         target="_blank"
@@ -155,7 +173,7 @@ const Resources = () => {
       >
         
         <img
-          className="resource-container__blog1"
+          className="blog1"
           src={blog1}
           alt="wit first blog"
         />
@@ -167,7 +185,7 @@ const Resources = () => {
         rel="noopener noreferrer"
       >
         <img
-          className="resource-container__blog1"
+          className="blog1"
           src={blog2}
           alt="wit secondblog"
         />
@@ -179,7 +197,7 @@ const Resources = () => {
         rel="noopener noreferrer"
       >
         <img
-          className="resource-container__blog1"
+          className="blog1"
           src={blog3}
           alt="wit third blog"
         />
@@ -191,14 +209,16 @@ const Resources = () => {
         rel="noopener noreferrer"
       >
         <img
-          className="resource-container__blog1"
+          className="blog1"
           src={blog4}
           alt="wit fourth blog"
         />
       </a>
       </div>
+      </div>
     </div>
-    </div>
+    </>
+    
   );
 };
 
