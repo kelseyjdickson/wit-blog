@@ -7,7 +7,7 @@ import axios from "axios";
 import Nav from "./Nav/Nav";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
-import About from "./About";
+import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Resources from "./Resources/Resources";
 import WomenContainer from "./WomenContainer";
