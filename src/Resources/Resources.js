@@ -124,7 +124,7 @@ const Resources = () => {
         href="https://techtonica.org/full-time-program/"
         target="_blank"
         rel="noopener noreferrer"
-      >Techtonica - Bootcamp for Womxn and Non-binary folx</a>
+      >Techtonica - Bootcamp</a>
       </div>
       <div className="link">
         <a
