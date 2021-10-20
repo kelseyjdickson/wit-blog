@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Link, Route, Switch } from "react-router-dom";
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+
+
 //components
 import Nav from "./Nav/Nav";
 import Home from "./Home/Home";
@@ -26,11 +26,10 @@ function App() {
         <Route path="/resources">
           <Resources />
         </Route>
-        <WomenContainer />
         <Route exact path="/">
-          <Home />
+        <WomenContainer />
         </Route>
-        <Route path="/females/:id">
+        <Route path="/:id">
           <WomenDetail />
         </Route>
       </Switch>
