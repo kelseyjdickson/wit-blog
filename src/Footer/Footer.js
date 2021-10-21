@@ -7,6 +7,7 @@ import wit from "../images/Wit-1.jpeg";
 const Footer = () => {
   return (
     <>
+    <div>
       <div className="footer">
         <div className="footer__right">
           <Link className="footer__about" to="/about">
@@ -60,6 +61,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

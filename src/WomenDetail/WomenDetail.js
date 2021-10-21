@@ -13,7 +13,7 @@ const WomenDetail = () => {
             setWomenDetail(data);
           })
           .catch(err => console.log(err))
-      }, []);
+      }, [id]);
       const { female } = womenDetail;
 
     return(
