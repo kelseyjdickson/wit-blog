@@ -1,7 +1,35 @@
 .women-text{
     display: inline-block;
-    
     width: 900px;
     line-height: 40px;
     font-size: 20px;
+    font-family: 'Montserrat'
+}
+
+.women-link{
+    text-decoration: none;
+    color: gray;
+    font-weight: 900;
+}
+
+.women-container{
+    background-color:#caae58;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    border: 3px solid black;
+    width: 900px;
+    display: inline-block;
+}
+
+.women-image{
+    width: 300px;
+    height: 300px;
+    border-radius:150px;
+}
+
+.women-name{
+    font-family: 'Montserrat', sans-serif;
+        text-shadow: 2px 2px black;
 }
