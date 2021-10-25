@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 //assets
 import "./_footer.scss";
-import wit from "../images/Wit-1.jpeg";
+
 
 const Footer = () => {
   return (
