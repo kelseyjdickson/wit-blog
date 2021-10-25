@@ -1,11 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Link, Route, Switch } from "react-router-dom";
-
+import { Route, Switch } from "react-router-dom";
 
 //components
 import Nav from "./Nav/Nav";
-import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
@@ -27,7 +24,7 @@ function App() {
           <Resources />
         </Route>
         <Route exact path="/">
-        <WomenContainer />
+          <WomenContainer />
         </Route>
         <Route path="/:id">
           <WomenDetail />
