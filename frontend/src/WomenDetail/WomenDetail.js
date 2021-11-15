@@ -18,7 +18,7 @@ const WomenDetail = () => {
   return (
     <div>
       {!female ? (
-        "Loading..."
+        <h1 className="loading">Loading...</h1>
       ) : (
         <>
         <div className="women-container">
