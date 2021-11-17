@@ -6,7 +6,7 @@ const WomenDetail = () => {
   const [womenDetail, setWomenDetail] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    fetch(`https://wit-spotlight.herokuapp.com/${id}`)
+    fetch(`https://wit-spotlight.herokuapp.com/blogs/${id}`)
       .then(res => res.json())
       .then(data => {
         setWomenDetail(data);
