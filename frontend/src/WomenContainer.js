@@ -6,7 +6,7 @@ const WomenContainer = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://wit-spotlight.herokuapp.com/")
+    fetch("https://wit-spotlight.herokuapp.com/blogs")
       .then(res => res.json())
       .then(data => {
         setData(data);
