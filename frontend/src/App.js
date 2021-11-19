@@ -7,7 +7,7 @@ import Footer from "./Footer/Footer";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Resources from "./Resources/Resources";
-import WomenContainer from "./WomenContainer";
+import WomenContainer from "./WomenContainer/WomenContainer";
 import WomenDetail from "./WomenDetail/WomenDetail";
 function App() {
   return (

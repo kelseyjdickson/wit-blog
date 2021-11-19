@@ -36,3 +36,10 @@
 .loading{
     font-family: 'Montserrat'
 }
+// Media Queries
+@media (max-width: 600px){
+    .women-container{
+        border: 3px solid yellow;
+        width: auto;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Home from "./Home/Home";
-import Header from "./Header/Header";
+import Home from "../Home/Home";
+import Header from "../Header/Header";
 
 const WomenContainer = () => {
   const [data, setData] = useState([]);
