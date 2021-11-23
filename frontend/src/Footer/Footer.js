@@ -20,6 +20,7 @@ const Footer = () => {
             <Link className="footer__contact" to="/contact">
               Contact
             </Link>
+            <div className="contact-div">
             <div className="connect-icon">
               <a
                 className="mail"
@@ -61,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    {/* </div> */}
+    </div>
     </>
   );
 };
