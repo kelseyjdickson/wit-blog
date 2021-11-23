@@ -26,6 +26,9 @@ const WomenDetail = () => {
           <h1 className="women-name">{female.name} </h1>
           <h2>Job Title: {female.job_title}</h2>
           <h3>Company: {female.company}</h3>
+          <a href={female.contact_link}>
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
 
           <div className="women-text">
             <p>{female.women_text}</p>

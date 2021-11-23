@@ -22,9 +22,7 @@ const Home = ({ data }) => {
           <p className="container__job">
             <b>Job:</b> {female.job_title}
           </p>
-          <a href={female.contact_link}>
-            <i class="fab fa-linkedin fa-2x"></i>
-          </a>
+          
           <p></p>
         </div>
       </Link>
