@@ -22,7 +22,7 @@ const WomenDetail = () => {
       ) : (
         <>
         <div className="women-container">
-          <img className="women-image"src={female.image} alt="showing" />
+          <img className="women-image"src={female.image} alt={`showing ${female.name }`}/>
           <h1 className="women-name">{female.name} </h1>
           <h2>Job Title: {female.job_title}</h2>
           <h3>Company: {female.company}</h3>

@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import "./_home.scss";
 
 const Home = ({ data }) => {
-  const { female, name, id } = data;
+  const { female,  id } = data;
+  const {name } = female;
+  console.log(female)
   return (
     <>
       <Link to={`/${id}`}>
@@ -12,7 +14,7 @@ const Home = ({ data }) => {
           <img
             src={female.image}
             className="container__image"
-            alt={name}
+            alt={`Showcasing: ${name}`}
             key={id}
           />
           <h1 className="container__header">{female.name}</h1>
@@ -22,7 +24,7 @@ const Home = ({ data }) => {
           <p className="container__job">
             <b>Job:</b> {female.job_title}
           </p>
-          
+
           <p></p>
         </div>
       </Link>
